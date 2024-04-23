@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\repos\\PaymentDetailRegister\\PaymentAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5CC2AB-A362-4B47-8F3D-254BA0192BDB}|PaymentAPI\\PaymentAPI.csproj|d:\\repos\\paymentdetailregister\\paymentapi\\paymentapi\\models\\paymentdetailcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5CC2AB-A362-4B47-8F3D-254BA0192BDB}|PaymentAPI\\PaymentAPI.csproj|solutionrelative:paymentapi\\models\\paymentdetailcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5CC2AB-A362-4B47-8F3D-254BA0192BDB}|PaymentAPI\\PaymentAPI.csproj|d:\\repos\\paymentdetailregister\\paymentapi\\paymentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C5CC2AB-A362-4B47-8F3D-254BA0192BDB}|PaymentAPI\\PaymentAPI.csproj|solutionrelative:paymentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5CC2AB-A362-4B47-8F3D-254BA0192BDB}|PaymentAPI\\PaymentAPI.csproj|d:\\repos\\paymentdetailregister\\paymentapi\\paymentapi\\migrations\\20240423201807_first migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5CC2AB-A362-4B47-8F3D-254BA0192BDB}|PaymentAPI\\PaymentAPI.csproj|solutionrelative:paymentapi\\migrations\\20240423201807_first migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5CC2AB-A362-4B47-8F3D-254BA0192BDB}|PaymentAPI\\PaymentAPI.csproj|d:\\repos\\paymentdetailregister\\paymentapi\\paymentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5CC2AB-A362-4B47-8F3D-254BA0192BDB}|PaymentAPI\\PaymentAPI.csproj|solutionrelative:paymentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240423201807_First Migration.cs",
+              "DocumentMoniker": "D:\\repos\\PaymentDetailRegister\\PaymentAPI\\PaymentAPI\\Migrations\\20240423201807_First Migration.cs",
+              "RelativeDocumentMoniker": "PaymentAPI\\Migrations\\20240423201807_First Migration.cs",
+              "ToolTip": "D:\\repos\\PaymentDetailRegister\\PaymentAPI\\PaymentAPI\\Migrations\\20240423201807_First Migration.cs",
+              "RelativeToolTip": "PaymentAPI\\Migrations\\20240423201807_First Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T20:18:08.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repos\\PaymentDetailRegister\\PaymentAPI\\PaymentAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PaymentAPI\\Program.cs",
+              "ToolTip": "D:\\repos\\PaymentDetailRegister\\PaymentAPI\\PaymentAPI\\Program.cs",
+              "RelativeToolTip": "PaymentAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T20:10:11.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\repos\\PaymentDetailRegister\\PaymentAPI\\PaymentAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "PaymentAPI\\appsettings.json",
+              "ToolTip": "D:\\repos\\PaymentDetailRegister\\PaymentAPI\\PaymentAPI\\appsettings.json",
+              "RelativeToolTip": "PaymentAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-23T20:09:50.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentDetailContext.cs",
+              "DocumentMoniker": "D:\\repos\\PaymentDetailRegister\\PaymentAPI\\PaymentAPI\\Models\\PaymentDetailContext.cs",
+              "RelativeDocumentMoniker": "PaymentAPI\\Models\\PaymentDetailContext.cs",
+              "ToolTip": "D:\\repos\\PaymentDetailRegister\\PaymentAPI\\PaymentAPI\\Models\\PaymentDetailContext.cs",
+              "RelativeToolTip": "PaymentAPI\\Models\\PaymentDetailContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T20:02:16.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
