@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Dependancy injection for the Dev SQL Server connection string
 builder.Services.AddDbContext<PaymentDetailContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"))
 );
@@ -23,6 +24,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Enable cross origin resources sharing
 app.UseCors(options => options
     .WithOrigins("http://localhost:4200")
     .AllowAnyMethod()
