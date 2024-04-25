@@ -9,9 +9,10 @@ import { NgForm} from '@angular/forms';
 })
 export class PaymentDetailService {
 
-  url:string = environment.apiBaseURL + '/PaymentDetail'
-  list:PaymentDetail[] = []
+  url : string = environment.apiBaseURL + '/PaymentDetail'
+  list : PaymentDetail[] = []
   formData : PaymentDetail = new PaymentDetail()
+  formsubmitted : boolean = false
 
   constructor(private http: HttpClient) { }
 
@@ -29,8 +30,18 @@ export class PaymentDetailService {
     return this.http.post(this.url, this.formData)
   }
 
+  putPaymentDetail() {
+    return this.http.put(this.url + "/" + this.formData.paymentDetailID, this.formData)
+  }
+
+  deletePaymentDetail(id:number) {
+    return this.http.delete(this.url + "/" + id)
+  }
+
+
   resetForm(form:NgForm) {
     form.form.reset()
     this.formData = new PaymentDetail()
+    this.formsubmitted = false
   }
 }
