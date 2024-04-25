@@ -69,8 +69,40 @@ namespace PaymentAPI.Controllers
                 }
             }
 
-            return NoContent();
+            return Ok(await _context.PaymentDetails.ToListAsync());
         }
+
+        // Original PUT request
+        // PUT: api/PaymentDetail/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> PutPaymentDetail(int id, PaymentDetail paymentDetail)
+        //{
+        //    if (id != paymentDetail.PaymentDetailID)
+        //    {
+        //        return BadRequest();
+        //    }
+
+        //    _context.Entry(paymentDetail).State = EntityState.Modified;
+
+        //    try
+        //    {
+        //        await _context.SaveChangesAsync();
+        //    }
+        //    catch (DbUpdateConcurrencyException)
+        //    {
+        //        if (!PaymentDetailExists(id))
+        //        {
+        //            return NotFound();
+        //        }
+        //        else
+        //        {
+        //            throw;
+        //        }
+        //    }
+
+        //    return NoContent();
+        //}
 
         // POST: api/PaymentDetail
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -80,8 +112,20 @@ namespace PaymentAPI.Controllers
             _context.PaymentDetails.Add(paymentDetail);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetPaymentDetail", new { id = paymentDetail.PaymentDetailID }, paymentDetail);
+            return Ok(await _context.PaymentDetails.ToListAsync());
         }
+
+        // Original POST request
+        // POST: api/PaymentDetail
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        //[HttpPost]
+        //public async Task<ActionResult<PaymentDetail>> PostPaymentDetail(PaymentDetail paymentDetail)
+        //{
+        //    _context.PaymentDetails.Add(paymentDetail);
+        //    await _context.SaveChangesAsync();
+
+        //    return CreatedAtAction("GetPaymentDetail", new { id = paymentDetail.PaymentDetailID }, paymentDetail);
+        //}
 
         // DELETE: api/PaymentDetail/5
         [HttpDelete("{id}")]
@@ -96,8 +140,25 @@ namespace PaymentAPI.Controllers
             _context.PaymentDetails.Remove(paymentDetail);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok(await _context.PaymentDetails.ToListAsync());
         }
+
+        // Original DELETE request
+        // DELETE: api/PaymentDetail/5
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeletePaymentDetail(int id)
+        //{
+        //    var paymentDetail = await _context.PaymentDetails.FindAsync(id);
+        //    if (paymentDetail == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    _context.PaymentDetails.Remove(paymentDetail);
+        //    await _context.SaveChangesAsync();
+
+        //    return NoContent();
+        //}
 
         private bool PaymentDetailExists(int id)
         {
