@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PaymentDetailService } from '../../shared/payment-detail.service';
 
 @Component({
   selector: 'app-payment-detail-form',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './payment-detail-form.component.css'
 })
 export class PaymentDetailFormComponent {
-
+  constructor(public service : PaymentDetailService) {
+    
+  }
 }

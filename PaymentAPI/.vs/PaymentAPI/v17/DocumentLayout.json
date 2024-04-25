@@ -38,8 +38,7 @@
               "RelativeToolTip": "PaymentAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T21:06:23.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T21:06:23.98Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "PaymentAPI\\Controllers\\PaymentDetailController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T20:34:54.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T20:34:54.251Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "PaymentAPI\\Models\\PaymentDetailContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T20:30:55.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T20:30:55.845Z"
             }
           ]
         }

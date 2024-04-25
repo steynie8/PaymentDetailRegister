@@ -11,6 +11,7 @@ export class PaymentDetailService {
 
   url:string = environment.apiBaseURL + '/PaymentDetail'
   list:PaymentDetail[] = []
+  formData : PaymentDetail = new PaymentDetail()
 
   constructor(private http: HttpClient) { }
 
